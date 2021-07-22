@@ -46,7 +46,7 @@ $datosCodificados = json_encode($parameters);
 
 // Comenzar a crear el objeto de curl
 # Url donde se hace la petición...
-$url = "https://apiecommerce.redpagos.co:8530/CheckOut/MethodGenerateTransaction";
+$url = "https://apiecommerce.pagosinteligentes.com:8070/CheckOut/MethodGenerateTransaction";
 $ch = curl_init($url);
 
 # Ahora le ponemos todas las opciones
